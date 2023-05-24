@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class HealthBar : MonoBehaviour
 {
@@ -48,6 +49,13 @@ public class HealthBar : MonoBehaviour
         animator.SetTrigger("Death");
         Debug.Log("You died!");
         // Add your game over logic here
+        //TransportPlayerToNecrus();
+        Invoke("TransportPlayerToNecrus", 2.5f);
+    }
+
+    private void TransportPlayerToNecrus()
+    {
+        SceneManager.LoadScene("Necrus");
     }
 
     private void UpdateHealthBar()
