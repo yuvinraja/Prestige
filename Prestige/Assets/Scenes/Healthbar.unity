@@ -18587,10 +18587,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802ef9f3512cdfe499f29a0bd4187964, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fillbar: {fileID: 0}
+  fillbar: {fileID: 746042956}
   maxHealth: 100
   damageAmount: 0
-  animator: {fileID: 0}
+  animator: {fileID: 1586157966}
 --- !u!114 &746042956
 MonoBehaviour:
   m_ObjectHideFlags: 0
