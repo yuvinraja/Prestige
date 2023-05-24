@@ -11,8 +11,8 @@ public class HeartPickup : MonoBehaviour
             Destroy(gameObject);
 
             // Teleport the player to the "Healthbar" scene
-            SceneManager.LoadScene("Healthbar", LoadSceneMode.Single);
-            Debug.Log("Teleport");
+            SceneManager.LoadScene("Aincrad", LoadSceneMode.Single);
+            
         }
     }
 }
