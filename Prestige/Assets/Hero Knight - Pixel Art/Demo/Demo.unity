@@ -357,6 +357,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_GameObject: {fileID: 338995870}
 =======
@@ -441,10 +442,25 @@ MonoBehaviour:
 --- !u!223 &731936219
 >>>>>>> Stashed changes
 Canvas:
+=======
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 316600264}
+  m_Layer: 0
+  m_Name: PointA
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &316600264
+Transform:
+>>>>>>> parent of 90384608 (Merge pull request #4 from yuvinraja/Rohan)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_GameObject: {fileID: 338995870}
 =======
@@ -465,6 +481,17 @@ Canvas:
 <<<<<<< Updated upstream
   m_SortingOrder: 0
   m_TargetDisplay: 0
+=======
+  m_GameObject: {fileID: 316600263}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.62, y: -3.3, z: -0.17022459}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of 90384608 (Merge pull request #4 from yuvinraja/Rohan)
 --- !u!1 &397401327
 GameObject:
   m_ObjectHideFlags: 0
@@ -9410,11 +9437,6 @@ CapsuleCollider2D:
   m_Offset: {x: -0.008517337, y: 0.68388665}
   m_Size: {x: 0.6719923, y: 1.2064965}
   m_Direction: 0
---- !u!95 &1278726598 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2655505060201611074, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
-  m_PrefabInstance: {fileID: 6855557595897071052}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1404924353
 GameObject:
   m_ObjectHideFlags: 0
@@ -9549,6 +9571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 --- !u!1 &1551973771
 GameObject:
   m_ObjectHideFlags: 0
@@ -9751,6 +9774,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660808181}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of 90384608 (Merge pull request #4 from yuvinraja/Rohan)
 --- !u!1 &2072535888
 GameObject:
   m_ObjectHideFlags: 0
