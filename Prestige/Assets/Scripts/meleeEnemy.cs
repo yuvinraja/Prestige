@@ -1,4 +1,4 @@
-using System.Collections;
+    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -19,7 +19,7 @@ public class meleeEnemy : MonoBehaviour
 
     //References
     private Animator anim;
-    private HealthBar playerHealth;
+    public HealthBar playerHealth;
     //private EnemyPatrol enemyPatrol;
 
     private void Awake()
@@ -68,6 +68,6 @@ public class meleeEnemy : MonoBehaviour
     private void DamagePlayer()
     {
         if (PlayerInSight())
-            playerHealth.TakeDamage(damage);
+            playerHealth.TakeDamage(20);
     }
 }
